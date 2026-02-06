@@ -48,7 +48,7 @@ with tab_reg:
         with col1:
             fecha = st.date_input("Fecha de vuelo", datetime.now())
             piloto = st.text_input("Nombre del Piloto", placeholder="Ej: Juan Pérez")
-            aeronave = st.selectbox("Aeronave", ["DJI Mavic 3", "DJI Mini 4 Pro", "Matrice 300", "Otro"])
+            aeronave = st.selectbox("Aeronave", ["DJI Mavic 3 E", "DJI Matrice 4 E", "Otro"])
             lugar = st.text_input("Ubicación/Lugar", placeholder="Ej: Sector Norte - Antofagasta")
             
         with col2:
